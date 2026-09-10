@@ -1,0 +1,17 @@
+appliances = {
+    "Fan": 75,
+    "Light": 20,
+    "TV": 100,
+    "Computer": 200
+}
+
+hours = float(input("Enter daily usage hours: "))
+
+total_energy = 0
+
+for appliance, power in appliances.items():
+    energy = (power * hours) / 1000
+    total_energy += energy
+    print(appliance, "=", energy, "kWh/day")
+
+print("Total Energy =", total_energy, "kWh/day")
