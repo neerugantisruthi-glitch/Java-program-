@@ -1,0 +1,11 @@
+n = int(input("Enter number of resistors: "))
+
+inverse = 0
+
+for i in range(n):
+    R = float(input("Enter resistance: "))
+    inverse += 1 / R
+
+total = 1 / inverse
+
+print("Equivalent Resistance =", total, "Ω")
