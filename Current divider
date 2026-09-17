@@ -1,0 +1,9 @@
+I = float(input("Enter total current: "))
+R1 = float(input("Enter R1: "))
+R2 = float(input("Enter R2: "))
+
+I1 = I * R2 / (R1 + R2)
+I2 = I * R1 / (R1 + R2)
+
+print("Current through R1 =", I1, "A")
+print("Current through R2 =", I2, "A")
