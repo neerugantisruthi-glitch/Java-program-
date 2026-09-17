@@ -1,0 +1,6 @@
+output = float(input("Enter output power (W): "))
+input_power = float(input("Enter input power (W): "))
+
+efficiency = (output / input_power) * 100
+
+print("Motor Efficiency =", efficiency, "%")
