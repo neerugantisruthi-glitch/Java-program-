@@ -1,0 +1,7 @@
+output = float(input("Enter output power (W): "))
+losses = float(input("Enter total losses (W): "))
+
+input_power = output + losses
+efficiency = (output / input_power) * 100
+
+print("Transformer Efficiency =", efficiency, "%")
