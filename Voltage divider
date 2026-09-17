@@ -1,0 +1,7 @@
+Vin = float(input("Enter input voltage: "))
+R1 = float(input("Enter R1: "))
+R2 = float(input("Enter R2: "))
+
+Vout = Vin * R2 / (R1 + R2)
+
+print("Output Voltage =", Vout, "V")
