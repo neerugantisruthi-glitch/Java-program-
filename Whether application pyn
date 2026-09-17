@@ -1,0 +1,17 @@
+city = input("Enter city name: ")
+temperature = float(input("Enter temperature in °C: "))
+humidity = float(input("Enter humidity (%): "))
+
+print("\nWeather Report")
+print("City:", city)
+print("Temperature:", temperature, "°C")
+print("Humidity:", humidity, "%")
+
+if temperature >= 35:
+    print("Weather: Hot")
+elif temperature >= 25:
+    print("Weather: Warm")
+elif temperature >= 15:
+    print("Weather: Cool")
+else:
+    print("Weather: Cold")
