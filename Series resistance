@@ -1,0 +1,9 @@
+n = int(input("Enter number of resistors: "))
+
+total = 0
+
+for i in range(n):
+    R = float(input("Enter resistance: "))
+    total += R
+
+print("Total Series Resistance =", total, "Ω")
